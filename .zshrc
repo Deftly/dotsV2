@@ -12,7 +12,7 @@ ZSH=/usr/share/oh-my-zsh/
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # List of plugins used
-plugins=(git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting golang asdf)
+plugins=(git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting golang asdf podman)
 source $ZSH/oh-my-zsh.sh
 
 # In case a command is not found, try to find the package that has it
