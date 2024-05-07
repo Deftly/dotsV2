@@ -22,6 +22,7 @@ function command_not_found_handler {
 
 PATH=${PATH}:/usr/local/go/bin
 PATH=${PATH}:~/.cargo/bin
+PATH=${PATH}:/usr/local/zig
 
 alias cp="cp -iv"
 alias mv="mv -iv"
